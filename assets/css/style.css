@@ -1,0 +1,287 @@
+@charset "UTF-8";
+.background_index {
+  background: white;
+}
+.background_index .loghi {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.background_index .loghi img {
+  max-width: 15rem;
+}
+
+main .carousel-item img {
+  display: block; /* Rende l'immagine un blocco per facilitarne il centramento */
+  max-width: 100%; /* Impedisce che l'immagine superi la larghezza della pagina */
+  height: auto;
+  margin: 0 auto;
+}
+main .background_main {
+  padding: 3rem 0;
+  background: #fff;
+  text-align: center;
+  color: #2a2a2a;
+}
+main .background_main .title1 {
+  padding: 2rem 10rem 0;
+  font-size: 2rem;
+  font-family: "Raleway", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: #0066be;
+}
+main .background_main .title2 {
+  padding-bottom: 2rem;
+  font-size: 1.5rem;
+  font-family: "Raleway", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: italic;
+}
+main .background_main .description_cucinav {
+  padding: 0 10rem;
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+main .booking {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /* Media queries widget */
+}
+main .booking .thefork {
+  border: none;
+  overflow: scroll;
+}
+@media only screen and (max-width: 320px) {
+  main .booking .thefork {
+    min-height: 840px;
+  }
+}
+@media only screen and (min-width: 321px) and (max-width: 516px) {
+  main .booking .thefork {
+    min-height: 650px;
+  }
+}
+@media only screen and (min-width: 517px) {
+  main .booking .thefork {
+    min-height: 550px;
+  }
+}
+main .cell {
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 3rem 0;
+}
+main .cell :hover {
+  color: #0066be;
+  transition: 0.3s ease-in-out;
+}
+main .cell a {
+  text-decoration: none;
+  color: #000;
+  font-weight: italic;
+}
+main .menu_title {
+  padding-top: 5rem;
+  text-align: center;
+  font-size: 3rem;
+  font-family: "Raleway", serif;
+  font-optical-sizing: auto;
+}
+main .menu {
+  font-size: 2.5rem;
+  font-family: "Raleway", serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  color: #fff;
+  background: #000;
+}
+main .menu .menu_list {
+  display: flex;
+  flex-direction: column;
+}
+main .menu .menu_list .Cruditè {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+main .menu .menu_list .Cruditè .titlemini_menu {
+  text-align: center;
+  padding: 0 5vw;
+}
+main .menu .menu_list .Cruditè .titlemini_menu p {
+  padding-top: 2rem;
+  font-size: 1.3rem;
+}
+main .menu .menu_list .per_cominciare {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+main .menu .menu_list .per_cominciare .titlemini_menu {
+  text-align: center;
+  padding: 0 5vw;
+}
+main .menu .menu_list .per_cominciare .titlemini_menu p {
+  padding-top: 2rem;
+  font-size: 1.3rem;
+}
+main .menu .menu_list .pole_position {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+main .menu .menu_list .pole_position .titlemini_menu {
+  text-align: center;
+  padding: 0 5vw;
+}
+main .menu .menu_list .pole_position .titlemini_menu p {
+  padding-top: 2rem;
+  font-size: 1.3rem;
+}
+main .menu .menu_list .seconda_chance {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+main .menu .menu_list .seconda_chance .titlemini_menu {
+  text-align: center;
+  padding: 0 5vw;
+}
+main .menu .menu_list .seconda_chance .titlemini_menu p {
+  padding-top: 2rem;
+  font-size: 1.3rem;
+}
+main .menu .menu_list img {
+  max-width: 49.3vw;
+}
+main .menu .dolci {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+main .menu .dolci .titlemini_menu {
+  text-align: center;
+  padding: 0 5vw;
+}
+main .menu .dolci .titlemini_menu p {
+  padding-top: 2rem;
+  font-size: 1.3rem;
+}
+main .menu img {
+  max-width: 49.3vw;
+}
+
+.contatti {
+  text-align: center;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  padding-top: 3rem;
+}
+.contatti p {
+  text-align: center;
+  font-size: 1.5rem;
+  padding-top: 2rem;
+}
+.contatti p :hover {
+  color: #0066be;
+  transition: 0.3s ease-in-out;
+}
+.contatti p a {
+  text-decoration: none;
+  color: #000;
+  font-weight: italic;
+}
+.contatti .social {
+  padding-top: 4rem;
+}
+.contatti .social .social_title {
+  text-align: center;
+  font-family: "Raleway", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: italic;
+}
+.contatti .social .social-icons {
+  display: flex;
+  justify-content: center;
+  padding: 1rem 0;
+}
+.contatti .social .social-icons a :hover {
+  color: #309fff;
+  transition: 0.5s ease-in-out;
+}
+.contatti .social .social-icons .fab {
+  padding: 0 2rem;
+  color: #000;
+}
+
+.tripadv {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 4rem;
+}
+.tripadv .widCOEImg {
+  max-width: 4rem;
+}
+
+.TA_cdsscrollingravewide {
+  padding: 2rem 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+footer {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.tf-widget-button {
+  opacity: 1;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: 1px solid;
+  z-index: 9999999;
+  background-color: #fff;
+  border-radius: 4px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 42px;
+  border-color: #309fff;
+  color: #309fff;
+  width: 100%;
+  min-width: 192px;
+  max-width: 520px;
+  margin: 0 auto;
+}
+
+.tf-button-link {
+  text-decoration: none;
+  color: #309fff;
+  font-family: Raleway, sans-serif;
+  font-size: 1.4em;
+  width: 100%;
+  text-align: center;
+}
+
+.tf-button-link:hover {
+  font-weight: 700;
+  background: none !important;
+  color: #0066be;
+  border-color: #0066be;
+  transition: 0.5s ease-in-out;
+}/*# sourceMappingURL=style.css.map */
