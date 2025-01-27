@@ -1,0 +1,55 @@
+.tf-widget-button{
+    opacity:1;
+    -webkit-box-align:center;
+    -ms-flex-align:center;
+    align-items:center;border:1px 
+    solid;z-index:9999999;
+    background-color:#fff;
+    border-radius:4px;
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    height:42px;
+    border-color:#309fff;
+    color:#309fff;
+    width: 100%;
+    min-width: 192px;
+    max-width: 520px; 
+    margin: 0 auto;
+}
+
+    .tf-button-link{
+        text-decoration:none;
+        color:#309fff;
+        font-family:Raleway,sans-serif;
+        font-size:1.4em;
+        width:100%;
+        text-align:center;
+    }
+    .tf-button-link:hover{
+            font-weight:700;
+            background:none!important;
+            color: #0066be;
+            border-color:#0066be;
+            transition: 0.5s ease-in-out;
+        }
+    
+
+        iframe {
+            display: block;
+            max-width: 100%;  /* Occupazione massima in larghezza */
+            height: auto;     /* Altezza proporzionale */
+            border: 0;        /* Rimuove il bordo se necessario */
+          }
+
+          .booking {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        
+            .thefork{
+                border:none;
+                overflow: scroll;
+                }
+    
+                }

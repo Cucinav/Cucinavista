@@ -1,3 +1,5 @@
+@import 'responsive','widget';
+
 .background_index {
     background: white;
 
@@ -9,6 +11,7 @@
 
         img {
             max-width: 15rem;
+            display: block;
         }
     }
 }
@@ -60,33 +63,6 @@ main {
 
 
 
-    .booking {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-    
-        .thefork{
-            border:none;
-            overflow: scroll;
-            }
-            /* Media queries widget */ 
-            @media only screen and (max-width : 320px) { 
-                .thefork{
-                min-height: 840px;
-                }
-            }
-            @media only screen and (min-width : 321px) and (max-width : 516px){
-                .thefork{
-                min-height: 650px; 
-                }
-            }
-            @media only screen and (min-width : 517px) { 
-                .thefork{
-                min-height: 550px; 
-                }
-            }
-    }
-
     .cell {
         text-align: center;
         font-size: 1.5rem;
@@ -119,8 +95,8 @@ main {
     font-family: "Raleway", serif;
     font-optical-sizing: auto;
     font-weight: 200;
-    color: #fff;
-    background: #000;
+    color: #000;
+    background: #fff;
 
 
     .menu_list {
@@ -313,41 +289,4 @@ footer {
     text-align: center;
     margin-top: 1rem;
 }
-
-.tf-widget-button{
-    opacity:1;
-    -webkit-box-align:center;
-    -ms-flex-align:center;
-    align-items:center;border:1px 
-    solid;z-index:9999999;
-    background-color:#fff;
-    border-radius:4px;
-    display:-webkit-box;
-    display:-ms-flexbox;
-    display:flex;
-    height:42px;
-    border-color:#309fff;
-    color:#309fff;
-    width: 100%;
-    min-width: 192px;
-    max-width: 520px; 
-    margin: 0 auto;
-}
-
-    .tf-button-link{
-        text-decoration:none;
-        color:#309fff;
-        font-family:Raleway,sans-serif;
-        font-size:1.4em;
-        width:100%;
-        text-align:center;
-    }
-    .tf-button-link:hover{
-            font-weight:700;
-            background:none!important;
-            color: #0066be;
-            border-color:#0066be;
-            transition: 0.5s ease-in-out;
-        }
-    
 

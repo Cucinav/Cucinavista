@@ -1,4 +1,89 @@
 @charset "UTF-8";
+@media (max-width: 768px) {
+  .background_main {
+    padding: 3rem 0;
+  }
+  .background_main .title1 {
+    font-size: 1rem;
+  }
+  .background_main .title2 {
+    padding-bottom: 2rem;
+    font-size: 1rem;
+  }
+  .background_main .description_cucinav {
+    padding: 0;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .thefork {
+    min-height: 840px;
+  }
+}
+@media only screen and (min-width: 321px) and (max-width: 516px) {
+  .thefork {
+    min-height: 650px;
+  }
+}
+@media only screen and (min-width: 517px) {
+  .thefork {
+    min-height: 550px;
+  }
+}
+.tf-widget-button {
+  opacity: 1;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: 1px solid;
+  z-index: 9999999;
+  background-color: #fff;
+  border-radius: 4px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 42px;
+  border-color: #309fff;
+  color: #309fff;
+  width: 100%;
+  min-width: 192px;
+  max-width: 520px;
+  margin: 0 auto;
+}
+
+.tf-button-link {
+  text-decoration: none;
+  color: #309fff;
+  font-family: Raleway, sans-serif;
+  font-size: 1.4em;
+  width: 100%;
+  text-align: center;
+}
+
+.tf-button-link:hover {
+  font-weight: 700;
+  background: none !important;
+  color: #0066be;
+  border-color: #0066be;
+  transition: 0.5s ease-in-out;
+}
+
+iframe {
+  display: block;
+  max-width: 100%; /* Occupazione massima in larghezza */
+  height: auto; /* Altezza proporzionale */
+  border: 0; /* Rimuove il bordo se necessario */
+}
+
+.booking {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.booking .thefork {
+  border: none;
+  overflow: scroll;
+}
+
 .background_index {
   background: white;
 }
@@ -10,6 +95,7 @@
 }
 .background_index .loghi img {
   max-width: 15rem;
+  display: block;
 }
 
 main .carousel-item img {
@@ -47,31 +133,6 @@ main .background_main .description_cucinav {
   font-weight: 400;
   font-style: normal;
 }
-main .booking {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  /* Media queries widget */
-}
-main .booking .thefork {
-  border: none;
-  overflow: scroll;
-}
-@media only screen and (max-width: 320px) {
-  main .booking .thefork {
-    min-height: 840px;
-  }
-}
-@media only screen and (min-width: 321px) and (max-width: 516px) {
-  main .booking .thefork {
-    min-height: 650px;
-  }
-}
-@media only screen and (min-width: 517px) {
-  main .booking .thefork {
-    min-height: 550px;
-  }
-}
 main .cell {
   text-align: center;
   font-size: 1.5rem;
@@ -98,8 +159,8 @@ main .menu {
   font-family: "Raleway", serif;
   font-optical-sizing: auto;
   font-weight: 200;
-  color: #fff;
-  background: #000;
+  color: #000;
+  background: #fff;
 }
 main .menu .menu_list {
   display: flex;
@@ -246,42 +307,4 @@ main .menu img {
 footer {
   text-align: center;
   margin-top: 1rem;
-}
-
-.tf-widget-button {
-  opacity: 1;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  border: 1px solid;
-  z-index: 9999999;
-  background-color: #fff;
-  border-radius: 4px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  height: 42px;
-  border-color: #309fff;
-  color: #309fff;
-  width: 100%;
-  min-width: 192px;
-  max-width: 520px;
-  margin: 0 auto;
-}
-
-.tf-button-link {
-  text-decoration: none;
-  color: #309fff;
-  font-family: Raleway, sans-serif;
-  font-size: 1.4em;
-  width: 100%;
-  text-align: center;
-}
-
-.tf-button-link:hover {
-  font-weight: 700;
-  background: none !important;
-  color: #0066be;
-  border-color: #0066be;
-  transition: 0.5s ease-in-out;
 }/*# sourceMappingURL=style.css.map */

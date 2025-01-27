@@ -1,0 +1,45 @@
+
+
+
+@media (max-width: 768px) {
+
+    .background_main {
+        padding: 3rem 0;
+
+
+        .title1 {
+            font-size: 1rem;
+
+        }
+
+        .title2 {
+            padding-bottom: 2rem;
+            font-size: 1rem;
+        }
+
+        .description_cucinav {
+            padding: 0;
+        }
+
+    }
+
+}
+
+
+
+
+    @media only screen and (max-width : 320px) { 
+        .thefork{
+        min-height: 840px;
+        }
+    }
+    @media only screen and (min-width : 321px) and (max-width : 516px){
+        .thefork{
+        min-height: 650px; 
+        }
+    }
+    @media only screen and (min-width : 517px) { 
+        .thefork{
+        min-height: 550px; 
+        }
+    }
