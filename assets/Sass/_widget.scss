@@ -3,7 +3,8 @@
     -webkit-box-align:center;
     -ms-flex-align:center;
     align-items:center;border:1px 
-    solid;z-index:9999999;
+    solid;
+    z-index:9999999;
     background-color:#fff;
     border-radius:4px;
     display:-webkit-box;
@@ -12,10 +13,8 @@
     height:42px;
     border-color:#309fff;
     color:#309fff;
-    width: 100%;
-    min-width: 192px;
-    max-width: 520px; 
-    margin: 0 auto;
+    width: 30vw;
+    margin: 0 auto 2rem;
 }
 
     .tf-button-link{
@@ -25,6 +24,7 @@
         font-size:1.4em;
         width:100%;
         text-align:center;
+        font-weight: 600;
     }
     .tf-button-link:hover{
             font-weight:700;
@@ -36,11 +36,11 @@
     
 
         iframe {
-            display: block;
-            max-width: 100%;  /* Occupazione massima in larghezza */
-            height: auto;     /* Altezza proporzionale */
-            border: 0;        /* Rimuove il bordo se necessario */
+            max-width: 100%; 
+            height: auto;    
+            border: 0;       
           }
+
 
           .booking {
             display: flex;
@@ -53,3 +53,15 @@
                 }
     
                 }
+
+                
+.tripadv {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 3rem;
+
+    .widCOEImg {
+        max-width: 4rem;
+    }
+}

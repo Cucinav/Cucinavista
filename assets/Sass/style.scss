@@ -1,4 +1,4 @@
-@import 'responsive','widget';
+@import 'responsive','widget','stylemenu';
 
 .background_index {
     background: white;
@@ -33,7 +33,7 @@ main {
         color: #2a2a2a;
 
         .title1 {
-            padding: 2rem 10rem 0;
+            padding: 2rem 5rem 2rem;
             font-size: 2rem;
             font-family: "Raleway", serif;
             font-optical-sizing: auto;
@@ -53,7 +53,8 @@ main {
         }
 
         .description_cucinav {
-            padding: 0 10rem;
+            display: block;
+            padding: 0 4rem;
             font-family: "Merriweather", serif;
             font-weight: 400;
             font-style: normal;        
@@ -62,181 +63,41 @@ main {
     }
 
 
-
-    .cell {
-        text-align: center;
-        font-size: 1.5rem;
-        padding: 3rem 0;
-
-        :hover{
-            color: #0066be;
-            transition: 0.3s ease-in-out;
-        }
-
-        a{
-        text-decoration: none;
-        color: #000;
-        font-weight: italic;
-
-     
-        }
-    }
-
-.menu_title {
-    padding-top: 5rem;
-    text-align: center;
-    font-size: 3rem;
-    font-family: "Raleway", serif;
-    font-optical-sizing: auto;
 }
 
-.menu {
-    font-size: 2.5rem;
-    font-family: "Raleway", serif;
-    font-optical-sizing: auto;
-    font-weight: 200;
-    color: #000;
-    background: #fff;
-
-
-    .menu_list {
-        display: flex;
-        flex-direction: column;
-
-
-        .Cruditè {
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-            align-items: center;
-
-            .titlemini_menu {
-                text-align: center;
-                padding: 0 5vw;
-
-                p {
-                    padding-top: 2rem;
-                    font-size: 1.3rem;
-                }
-            }
-
-        }
-
-        .per_cominciare {
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-            align-items: center;
-
-            .titlemini_menu {
-                text-align: center;
-                padding: 0 5vw;
-
-                p {
-                    padding-top: 2rem;
-                    font-size: 1.3rem;
-                }
-
-        }
-    }
-
-        .pole_position {
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-            align-items: center;
-
-            .titlemini_menu {
-                text-align: center;
-                padding: 0 5vw;
-
-                p {
-                    padding-top: 2rem;
-                    font-size: 1.3rem;
-                }
-
-            }
-        }
-
-        .seconda_chance {
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-            align-items: center;
-
-            .titlemini_menu {
-                text-align: center;
-                padding: 0 5vw;
-
-                p {
-                    padding-top: 2rem;
-                    font-size: 1.3rem;
-                }
-
-            }
-        }
-
-        img {
-            max-width: 49.3vw;
-        }
-    }
-
-    .dolci {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-
-        .titlemini_menu {
-            text-align: center;
-            padding: 0 5vw;
-
-            p {
-                padding-top: 2rem;
-                font-size: 1.3rem;
-            }
-
-        }
-    }
+.separ {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 
     img {
-        max-width: 49.3vw;
+        padding: 3rem 0 2rem ;
+        max-width: 60vw;
+        height: auto;
     }
-}
-
-
 }
 
 .contatti {
+
     text-align: center;
+
+    h2{
+    text-align: center;
+    padding-top: 1rem;
+    font-size: 2rem;
+    font-family: "Raleway", serif;
     font-optical-sizing: auto;
-    font-weight: 100;
-    padding-top: 3rem;
-
-
-    p {
-        text-align: center;
-        font-size: 1.5rem;
-        padding-top: 2rem;
-
-
-        :hover{
-            color: #0066be;
-            transition: 0.3s ease-in-out;
-        }
-
-        a{
-        text-decoration: none;
-        color: #000;
-        font-weight: italic;
-
-        }
-
+    font-weight: 300;
+    font-style: italic;
     }
 
+    .adress {
+        font-size: 1.1rem;
+        text-align: center;
 
+    }
+  
     .social {
-        padding-top: 4rem;
 
         .social_title {
             text-align: center;
@@ -244,12 +105,14 @@ main {
             font-optical-sizing: auto;
             font-weight: 300;
             font-style: italic;
+            font-size: 1.2rem;
 
         }
             .social-icons {
                 display: flex;
                 justify-content: center;
-                padding: 1rem 0;
+                padding: 1rem 0 2rem;
+                font-size: 2rem;
 
 
                 a :hover {
@@ -264,29 +127,62 @@ main {
                 }
             }
         }
+
+        .cell {
+            text-align: center;
+            font-size: 1.5rem;
+            font-weight: 300;
+            padding-top: 1rem;
+        
+            :hover{
+                color: #0066be;
+                transition: 0.3s ease-in-out;
+            }
+        
+            a{
+            text-decoration: none;
+            color: #000;
+            font-weight: 400;
+        
+            }
+        }
 }
 
-
-.tripadv {
+.btn_menu {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding-top: 4rem;
+    padding-bottom: 1rem;
+    
 
-    .widCOEImg {
-        max-width: 4rem;
+    a{
+
+    :hover{
+        font-weight:700;
+        background:none!important;
+        color: #0066be;
+        border-color:#0066be;
+        transition: 0.3s ease-in-out;
     }
+    }
+
+.btn {
+    font-family:Raleway,sans-serif;
+    border-color: #309fff;
+    color: #309fff;
+    width: 30vw;
+    font-size: 1.4rem;
+    height:42px;
+    border-radius:4px;
+
+
 }
 
-.TA_cdsscrollingravewide {
-    padding: 2rem 0;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
 }
 
 footer {
+    border-top: solid 2px #0066be;
     text-align: center;
-    margin-top: 1rem;
+    margin: 1rem 0;
+    padding-top: 1rem;
 }
-
