@@ -1,16 +1,5 @@
 @media  (max-width: 768px) {
-   
-    .mary {
-    flex-direction: column !important;
 
-    p {
-        padding: 0 2rem !important;
-    }
-
-    img {
-        padding-top: 2rem;
-    }
-}
 
 .tf-button-link {
 font-size: 1.2rem !important; 
@@ -81,6 +70,31 @@ padding-bottom: 5rem !important;
 
 
 }
+}
+
+
+@media  (max-width: 992px) {
+    .mary {
+ flex-direction: column !important;
+
+ p {
+     padding: 0 2rem !important;
+ }
+
+ img {
+     padding-top: 2rem;
+     max-width: 80vw !important;
+ }
+}
+}
+
+
+@media (min-width: 1900px) {
+    .mary {
+        img {
+            max-width: 20vw !important;
+        }
+    }
 }
 
 

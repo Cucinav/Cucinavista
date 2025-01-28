@@ -1,14 +1,5 @@
 @charset "UTF-8";
 @media (max-width: 768px) {
-  .mary {
-    flex-direction: column !important;
-  }
-  .mary p {
-    padding: 0 2rem !important;
-  }
-  .mary img {
-    padding-top: 2rem;
-  }
   .tf-button-link {
     font-size: 1.2rem !important;
   }
@@ -61,6 +52,23 @@
   }
   .dolci img {
     padding-top: 2rem;
+  }
+}
+@media (max-width: 992px) {
+  .mary {
+    flex-direction: column !important;
+  }
+  .mary p {
+    padding: 0 2rem !important;
+  }
+  .mary img {
+    padding-top: 2rem;
+    max-width: 80vw !important;
+  }
+}
+@media (min-width: 1900px) {
+  .mary img {
+    max-width: 20vw !important;
   }
 }
 .tf-widget-button {
@@ -304,8 +312,8 @@ main .background_main .mary {
   padding: 4rem 0;
   display: flex;
   flex-direction: row;
-  justify-content: center;
   align-items: center;
+  justify-content: space-around;
 }
 main .background_main .mary img {
   max-width: 40vw;
