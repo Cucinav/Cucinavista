@@ -82,16 +82,40 @@ iframe {
   max-width: 4rem;
 }
 
+.btn_home {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 4rem;
+}
+.btn_home a :hover {
+  font-weight: 700;
+  background: none !important;
+  color: #0066be;
+  border-color: #0066be;
+  transition: 0.3s ease-in-out;
+}
+.btn_home .btn {
+  font-family: Raleway, sans-serif;
+  border-color: #309fff;
+  color: #309fff;
+  width: 30vw;
+  font-size: 1.4rem;
+  height: 42px;
+  border-radius: 4px;
+}
+
 .preno_menu {
-  padding-top: 2rem;
+  padding-top: 1rem;
 }
 
 .menu_title {
-  padding-top: 5rem;
+  padding-top: 2rem;
   text-align: center;
-  font-size: 3rem;
+  font-size: 4rem;
   font-family: "Raleway", serif;
   font-optical-sizing: auto;
+  font-weight: 200;
 }
 
 .menu {
@@ -101,6 +125,7 @@ iframe {
   font-weight: 200;
   color: #000;
   background: #fff;
+  padding: 3rem 0;
 }
 .menu .menu_list {
   display: flex;
@@ -111,6 +136,7 @@ iframe {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  padding-bottom: 10rem;
 }
 .menu .menu_list .Cruditè .titlemini_menu {
   text-align: center;
@@ -125,6 +151,7 @@ iframe {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  padding-bottom: 10rem;
 }
 .menu .menu_list .per_cominciare .titlemini_menu {
   text-align: center;
@@ -139,6 +166,7 @@ iframe {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  padding-bottom: 10rem;
 }
 .menu .menu_list .pole_position .titlemini_menu {
   text-align: center;
@@ -153,6 +181,7 @@ iframe {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  padding-bottom: 10rem;
 }
 .menu .menu_list .seconda_chance .titlemini_menu {
   text-align: center;
@@ -170,6 +199,7 @@ iframe {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  padding-bottom: 10rem;
 }
 .menu .dolci .titlemini_menu {
   text-align: center;
@@ -219,14 +249,25 @@ main .background_main .title1 {
   color: #0066be;
 }
 main .background_main .title2 {
-  padding-bottom: 2rem;
+  padding-bottom: 3rem;
   font-size: 1.5rem;
   font-family: "Raleway", serif;
   font-optical-sizing: auto;
   font-weight: 300;
   font-style: italic;
 }
-main .background_main .description_cucinav {
+main .background_main .mary {
+  padding: 4rem 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+main .background_main .mary img {
+  max-width: 40vw;
+  height: auto;
+}
+main .background_main .mary .description_cucinav {
   display: block;
   padding: 0 4rem;
   font-family: "Merriweather", serif;
@@ -303,7 +344,7 @@ main .background_main .description_cucinav {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  padding-bottom: 1rem;
+  padding-bottom: 2rem;
 }
 .btn_menu a :hover {
   font-weight: 700;

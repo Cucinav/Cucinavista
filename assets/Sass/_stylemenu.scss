@@ -1,13 +1,47 @@
+.btn_home {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 4rem;
+    
+
+    a{
+
+    :hover{
+        font-weight:700;
+        background:none!important;
+        color: #0066be;
+        border-color:#0066be;
+        transition: 0.3s ease-in-out;
+    }
+    }
+
+.btn {
+    font-family:Raleway,sans-serif;
+    border-color: #309fff;
+    color: #309fff;
+    width: 30vw;
+    font-size: 1.4rem;
+    height:42px;
+    border-radius:4px;
+
+
+}
+
+}
+
+
 .preno_menu {
-    padding-top: 2rem;
+    padding-top: 1rem;
 }
 
 .menu_title {
-    padding-top: 5rem;
+    padding-top: 2rem;
     text-align: center;
-    font-size: 3rem;
+    font-size: 4rem;
     font-family: "Raleway", serif;
     font-optical-sizing: auto;
+    font-weight: 200;
 }
 
 .menu {
@@ -17,6 +51,7 @@
     font-weight: 200;
     color: #000;
     background: #fff;
+    padding: 3rem 0;
 
 
     .menu_list {
@@ -29,6 +64,7 @@
             flex-direction: row;
             justify-content: space-between;
             align-items: center;
+            padding-bottom: 10rem;
 
             .titlemini_menu {
                 text-align: center;
@@ -47,6 +83,7 @@
             flex-direction: row;
             justify-content: space-between;
             align-items: center;
+            padding-bottom: 10rem;
 
             .titlemini_menu {
                 text-align: center;
@@ -65,6 +102,8 @@
             flex-direction: row;
             justify-content: space-between;
             align-items: center;
+            padding-bottom: 10rem;
+
 
             .titlemini_menu {
                 text-align: center;
@@ -83,6 +122,8 @@
             flex-direction: row;
             justify-content: space-between;
             align-items: center;
+            padding-bottom: 10rem;
+
 
             .titlemini_menu {
                 text-align: center;
@@ -106,6 +147,8 @@
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
+        padding-bottom: 10rem;
+
 
         .titlemini_menu {
             text-align: center;
