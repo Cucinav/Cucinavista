@@ -1,22 +1,66 @@
 @charset "UTF-8";
 @media (max-width: 768px) {
-  .description_cucinav {
-    padding: 0 2rem;
+  .mary {
+    flex-direction: column !important;
   }
-}
-@media only screen and (max-width: 320px) {
-  .thefork {
-    min-height: 840px;
+  .mary p {
+    padding: 0 2rem !important;
   }
-}
-@media only screen and (min-width: 321px) and (max-width: 516px) {
-  .thefork {
-    min-height: 650px;
+  .mary img {
+    padding-top: 2rem;
   }
-}
-@media only screen and (min-width: 517px) {
-  .thefork {
-    min-height: 550px;
+  .tf-button-link {
+    font-size: 1.2rem !important;
+  }
+  .Cruditè {
+    flex-direction: column !important;
+    padding-bottom: 5rem !important;
+  }
+  .Cruditè p {
+    font-size: 1rem !important;
+  }
+  .Cruditè img {
+    padding-top: 2rem;
+  }
+  .per_cominciare {
+    flex-direction: column-reverse !important;
+    padding-bottom: 5rem !important;
+  }
+  .per_cominciare p {
+    font-size: 1rem !important;
+  }
+  .per_cominciare img {
+    padding-top: 2rem;
+  }
+  .pole_position {
+    flex-direction: column !important;
+    padding-bottom: 5rem !important;
+  }
+  .pole_position p {
+    font-size: 1rem !important;
+  }
+  .pole_position img {
+    padding-top: 2rem;
+  }
+  .seconda_chance {
+    flex-direction: column-reverse !important;
+    padding-bottom: 5rem !important;
+  }
+  .seconda_chance p {
+    font-size: 1rem !important;
+  }
+  .seconda_chance img {
+    padding-top: 2rem;
+  }
+  .dolci {
+    flex-direction: column !important;
+    padding-bottom: 5rem !important;
+  }
+  .dolci p {
+    font-size: 1rem !important;
+  }
+  .dolci img {
+    padding-top: 2rem;
   }
 }
 .tf-widget-button {

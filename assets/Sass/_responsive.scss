@@ -1,33 +1,88 @@
+@media  (max-width: 768px) {
+   
+    .mary {
+    flex-direction: column !important;
+
+    p {
+        padding: 0 2rem !important;
+    }
+
+    img {
+        padding-top: 2rem;
+    }
+}
+
+.tf-button-link {
+font-size: 1.2rem !important; 
+}
 
 
+.Cruditè {
+    flex-direction: column !important;
+    padding-bottom: 5rem !important;
+    p {
+        font-size: 1rem !important;
+    }
+    img {
+        padding-top: 2rem;
+    }
 
-@media (max-width: 768px) {
+}
 
+.per_cominciare {
+    flex-direction:column-reverse !important;
+    padding-bottom: 5rem !important;
+    p {
+        font-size: 1rem !important;
 
-        .description_cucinav {
-            padding: 0 2rem;
-     
-        }
+    }
+    img {
+        padding-top: 2rem;
+    }
 
+}
+
+.pole_position {
+    flex-direction: column !important;
+    padding-bottom: 5rem !important;
+    p {
+        font-size: 1rem !important;
+
+    }
+    img {
+        padding-top: 2rem;
+    }
+
+}
+
+.seconda_chance {
+    flex-direction: column-reverse !important;
+    padding-bottom: 5rem !important;
+    p {
+        font-size: 1rem !important;
+
+    }
+    img {
+        padding-top: 2rem;
+    }
+}
+
+.dolci {
+flex-direction: column !important;
+padding-bottom: 5rem !important;
+
+    p {
+        font-size: 1rem !important;
+
+    }
+    img {
+        padding-top: 2rem;
     }
 
 
+}
+}
 
 
 
 
-    @media only screen and (max-width : 320px) { 
-        .thefork{
-        min-height: 840px;
-        }
-    }
-    @media only screen and (min-width : 321px) and (max-width : 516px){
-        .thefork{
-        min-height: 650px; 
-        }
-    }
-    @media only screen and (min-width : 517px) { 
-        .thefork{
-        min-height: 550px; 
-        }
-    }
