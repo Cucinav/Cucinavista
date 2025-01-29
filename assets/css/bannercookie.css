@@ -1,0 +1,26 @@
+.cookie-banner {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  font-size: 14px;
+  z-index: 1000;
+}
+
+.cookie-banner a {
+  color: #FFD700;
+  text-decoration: underline;
+}
+
+.cookie-banner button {
+  background: #FFD700;
+  color: black;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  margin-left: 10px;
+}/*# sourceMappingURL=bannercookie.css.map */
