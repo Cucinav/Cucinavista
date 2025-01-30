@@ -30,9 +30,28 @@
 
 }
 
+.whats {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 1.4rem;
+
+    a {
+        text-decoration: none;
+    }
+
+    :hover{
+        font-weight:700;
+        background:none!important;
+        color: #006a09;
+        border-color:#0066be;
+        transition: 0.3s ease-in-out;
+    }
+}
 
 .preno_menu {
     padding-top: 1rem;
+
 }
 
 .menu_title {
