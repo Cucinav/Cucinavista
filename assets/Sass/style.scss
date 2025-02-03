@@ -62,6 +62,9 @@ main {
             img {
                 max-width: 40vw;
                 height: auto;
+                box-shadow: -2px 2px 5px rgba(0, 0, 0, 0.3), 2px 2px 5px rgba(0, 0, 0, 0.3); 
+             }
+
             }
 
         .description_cucinav {
@@ -76,7 +79,6 @@ main {
     }
 
 
-}
 
 .separ {
     display: flex;

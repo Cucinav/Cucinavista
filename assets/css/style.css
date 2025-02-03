@@ -167,11 +167,9 @@ iframe {
   text-decoration: none;
 }
 .whats :hover {
-  font-weight: 700;
+  font-weight: 600;
   background: none !important;
   color: #006a09;
-  border-color: #0066be;
-  transition: 0.3s ease-in-out;
 }
 
 .preno_menu {
@@ -362,8 +360,9 @@ main .background_main .mary {
 main .background_main .mary img {
   max-width: 40vw;
   height: auto;
+  box-shadow: -2px 2px 5px rgba(0, 0, 0, 0.3), 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
-main .background_main .mary .description_cucinav {
+main .background_main .description_cucinav {
   display: block;
   padding: 0 4rem;
   font-family: "Merriweather", serif;
